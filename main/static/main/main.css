@@ -1,0 +1,76 @@
+
+
+#imaginary_container{
+    margin-top:20%; /* Don't copy this */
+}
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+	border-right:0;
+	box-shadow:0 0 0;
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.profile-pic{
+  height: 250px;
+  width: 250px;
+}
+
+#list-header{
+  height: 45px;
+}
+
+#searchbar{
+  text-align: right;
+}
+
+#aboutme{
+  width: 400px;
+}
+
+aside .wrap{
+  margin-bottom: 0px;
+}
+
+.footerlink{
+  padding-left: 40px;
+
+}
+
+#footerwidth.top-part{
+  border-bottom: 0px;
+}
+
+#right{
+  float: right;
+}
+
+
+.socials-member2 {
+	margin-left: 0;
+	padding: 10px;
+	background: #61a8f0;
+	color: #fff;
+	overflow: hidden;
+}
+
+.socials-member2 li {
+	display: inline-block;
+	float: left;
+	line-height: 18px;
+}
+
+.socials-member2 li a {
+	color: #fff;
+	font-size: 18px;
+}
+
+.socials-member2 li a:hover {
+	text-decoration: none;
+	color: #333;
+}
