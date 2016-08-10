@@ -432,17 +432,17 @@ a:hover {
 }
 
 
-.service:hover i {
+.tools:hover i {
   color: #626c72;
   transition: all 0.35s ease-in-out;
   cursor: pointer;
 }
 
-.service h3 {
+.tools h3 {
   margin-top: 40px;
 }
 
-.service-icons {
+.tools-icons {
   padding-top: 20px;
 }
 
@@ -923,7 +923,7 @@ ul.social-icons-signup li a:hover {
 /* ==========================================================================
    Latest Work and Portfolio Styles
    ========================================================================== */
-#latest-work {
+#portfolio {
   background: url(../img/grid_noise.png) repeat;
   background-color: #ebebeb;
 }

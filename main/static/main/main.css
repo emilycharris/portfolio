@@ -19,3 +19,7 @@ p.lead2 {
   font-size: 48px;
   color: #ff755a;
 }
+
+.centered {
+  text-align: center;
+}
