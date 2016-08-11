@@ -53,7 +53,7 @@
             <li><a class="scroll" href="#tools">Tools</a></li>
             <li><a class="scroll" href="#portfolio">Portfolio</a></li>
             <li><a class="scroll" href="#content1">About</a></li>
-            <li><a class="scroll" href="#latest-news">News</a></li>
+            {# <li><a class="scroll" href="#latest-news">News</a></li>#}
             <li><a class="scroll" href="#bottom">Contact</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
@@ -113,7 +113,6 @@
               {# <i class="fa fa-mobile-phone fa-4x light-gray"></i>#}
               {# <h3>Python</h3>#}
               {# <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>#}
-            </a>
           </div>
 
           <!--Section 2-->
@@ -122,8 +121,6 @@
               {# <i class="fa fa-thumbs-up fa-4x light-gray"></i>#}
               {# <h3>Django</h3>#}
               {# <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>#}
-            </a>
-
           </div>
 
           <!--Section 3-->
@@ -132,22 +129,18 @@
               {# <i class="fa fa-flag fa-4x light-gray"></i>#}
               {# <h3>HTML & CSS</h3>#}
               {# <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>#}
-            </a>
-
           </div>
         </div>
         <br><br>
           <div class="row text-center">
+
           <!--Section 4-->
           <div class="col-sm-4 tools margin-30">
             <img src="{% static "main/onepage/img/bootstrap-logo copy.png" %}" alt="" height=130px/>
               {# <i class="fa fa-flag fa-4x light-gray"></i>#}
               {# <h3>Bootstrap</h3>#}
               {# <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>#}
-            </a>
-
           </div>
-
 
           <!--Section 5-->
           <div class="col-sm-4 tools margin-30">
@@ -155,8 +148,6 @@
               {# <i class="fa fa-flag fa-4x light-gray"></i>#}
               {# <h3>Github & Version Control</h3>#}
               {# <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>#}
-            </a>
-
           </div>
 
           <!--Section 6-->
@@ -165,21 +156,10 @@
               {# <i class="fa fa-flag fa-4x light-gray"></i>#}
               {# <h3>Django REST Framework</h3>#}
               {# <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>#}
-            </a>
-
           </div>
-
-
-
-
-
         </div>
-
-
-
-
-        <br><br>
-
+        <br>
+        <br>
 
         <div class="row text-center">
         <!--Section 7-->
@@ -188,8 +168,6 @@
             {# <i class="fa fa-flag fa-4x light-gray"></i>#}
             {# <h3>Heroku</h3>#}
             {# <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>#}
-          </a>
-
         </div>
 
 
@@ -199,8 +177,6 @@
             {# <i class="fa fa-flag fa-4x light-gray"></i>#}
             {# <h3>PostgreSQL</h3>#}
             {# <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>#}
-          </a>
-
         </div>
 
         <!--Section 9-->
@@ -209,13 +185,7 @@
             {# <i class="fa fa-flag fa-4x light-gray"></i>#}
             {# <h3>SQLite</h3>#}
             {# <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>#}
-          </a>
-
         </div>
-
-
-
-
       </div>
       <hr>
 
@@ -339,15 +309,53 @@
           <div class="col-sm-12">
             <h3>About</h3>
             {# <p class="lead">Emily Harris</p>#}
-            <p>                    Emily is a recent graduate of The Iron Yard in Greenville, South Carolina.  During the 12-week certification, she learned
-                                backend web development including Python and Django.  Her recently-acquired skills are detailed below.  This site will become
-                                her professional portfolio in the upcoming weeks.</p><br />
+            <p>                    I am a recent graduate of The Iron Yard in Greenville, South Carolina.  During the 12-week certification, I learned
+                                backend web development including Python and Django.  You can find my resume as well as a list of my recently-acquired skills below.  This site will become
+                                my professional portfolio in the upcoming weeks.</p><br/>
           </div>
         </div>
 
         <div class="row">
 
-          <div class="col-sm-6 progress-container margin-100">
+          <div class="col-sm-4 margin-10">
+            {# <h3>Our Team</h3>#}
+              <div class="flexslider">
+                  <!--Team Member-->
+                  <div class="col-sm-12 margin-30">
+                    <div class="team-container">
+                      <div class="row">
+                        <div class="col-xs-12 team-member">
+                          <img src="{% static "main/onepage/img/headshot3.png" %}" class="img-responsive" alt="Emily Harris">
+                        </div>
+                      </div>
+
+                      <div class="row text-center">
+                        <div class="col-xs-8 team-info">
+                          <h4><span class="white"> Emily Harris | <small><em>Web Developer</em></small></span></h4>
+                        </div>
+
+                        <div class="col-xs-4 socialize">
+                          <ul class="list-inline">
+                  					<li><a class="github" href="https://github.com/emilycharris" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+                  					<li><a class="linkedin" href="http://www.linkedin.com/in/emily-harris" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                  					</ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              </div><!--End Flex Slider-->
+          </div>
+
+
+
+
+          <div class="col-sm-6 col-sm-offset-1 progress-container margin-100">
+
+            <div class="bar-four">
+                  <a href="{% static "main/RESUME 2016.pdf" %}" target="_blank"><h3 class='resume'>Resume</h3><i class='fa fa-file-text-o fa-3x'></i></a>
+            </div>
+<hr>
             <!--First Column - To change progress value make sure to adjust bar width and field value to the same amount-->
             <h3>Skills</h3>
             <div class="display" id="progress">
@@ -358,7 +366,6 @@
                         <div style="width: 90%;" class="bar"></div>
                     </div>
                 </div>
-
 
                 <div class="bar-two">
                     <div class="progress">
@@ -384,49 +391,16 @@
                     </div>
                 </div>
             </div><!--End Progress Container-->
-          </div>
-
-          <div class="col-sm-4 col-sm-offset-1 margin-10">
-            {# <h3>Our Team</h3>#}
-
-              <div class="flexslider">
-
-
-                  <!--Team Member-->
-                  <div class="col-sm-12 margin-30">
-                    <div class="team-container">
-                      <div class="row">
-                        <div class="col-xs-12 team-member">
-                          <img src="{% static "main/onepage/img/headshot.jpg" %}" class="img-responsive" alt="Emily Harris">
-                        </div>
-                      </div>
-
-                      <div class="row text-center">
-                        <div class="col-xs-8 team-info">
-                          <h4><span class="white"> Emily Harris | <small><em>Web Developer</em></small></span></h4>
-                        </div>
-
-                        <div class="col-xs-4 socialize">
-                          <ul class="list-inline">
-                  					<li><a class="twitter" href="http://www.twitter.com/themearmada" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
-                  					<li><a class="facebook" href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
-                  					</ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-              </div><!--End Flex Slider-->
-
 
           </div>
+
         </div><!--End Row-->
-
+        <br>
       </div>
     </section>
 
 
-    <!--Latest News-->
+    <!--Latest News
     <section id="latest-news" class="section" style="padding-top:0px;">
       <div class="container">
         <div class="row margin-40">
@@ -435,36 +409,36 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row">-->
 
-          <!--News Article-->
+          <!--News Article
           <div class="col-sm-3 text-center">
             <div class="latest-article">
             <img src="img/latest-news1.jpg" class="img-responsive" alt="Title">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br />
             <a class="more" href="individual-blog.html"><i class="fa fa-chevron-circle-right fa-2x gray margin-20"></i></a>
             </div>
-          </div>
+          </div>-->
 
-          <!--News Article-->
+          <!--News Article
           <div class="col-sm-3 text-center">
             <div class="latest-article">
             <img src="img/latest-news2.jpg" class="img-responsive" alt="Title">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br />
             <a class="more" href="individual-blog.html"><i class="fa fa-chevron-circle-right fa-2x gray margin-20"></i></a>
             </div>
-          </div>
+          </div>-->
 
-          <!--News Article-->
+          <!--News Article
           <div class="col-sm-3 text-center">
             <div class="latest-article">
             <img src="img/latest-news3.jpg" class="img-responsive" alt="Title">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br />
             <a class="more" href="individual-blog.html"><i class="fa fa-chevron-circle-right fa-2x gray margin-20"></i></a>
             </div>
-          </div>
+          </div>-->
 
-          <!--News Article-->
+          <!--News Article
           <div class="col-sm-3 text-center">
             <div class="latest-article">
             <img src="img/latest-news4.jpg" class="img-responsive" alt="Title">
@@ -475,7 +449,7 @@
 
         </div>
       </div>
-    </section>
+    </section>-->
 
     <!--Twitter Feed
     <section id="twitter" class="section">
@@ -514,13 +488,13 @@
           <div class="col-sm-10 col-sm-offset-1 text-center">
             <!--Social Icons-->
             <ul class="social-icons">
-    					<li><a class="twitter" href="http://www.twitter.com/themearmada" target="_blank"><i class="fa fa-twitter fa-3x"></i></a></li>
+    					<li><a class="twitter" href="https://twitter.com/emilycharris" target="_blank"><i class="fa fa-twitter fa-3x"></i></a></li>
     					{# <li><a class="facebook" href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-3x"></i></a></li>#}
     					{# <li><a class="google" href="http://www.googleplus.com" target="_blank"><i class="fa fa-google-plus fa-3x"></i></a></li>#}
     					{# <li><a class="instagram" href="http://www.instagram.com" target="_blank"><i class="fa fa-camera-retro fa-3x"></i></a></li>#}
     					{# <li><a class="pinterest" href="http://www.pinterest.com" target="_blank"><i class="fa fa-pinterest fa-3x"></i></a></li>#}
-    					<li><a class="linkedin" href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
-    					<li><a class="Github" href="http://www.github.com" target="_blank"><i class="fa fa-github-alt fa-3x"></i></a></li>
+    					<li><a class="linkedin" href="http://www.linkedin.com/in/emily-harris" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
+    					<li><a class="Github" href="https://github.com/emilycharris" target="_blank"><i class="fa fa-github fa-3x"></i></a></li>
     				</ul>
           </div>
         </div>

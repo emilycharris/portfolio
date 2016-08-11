@@ -23,3 +23,9 @@ p.lead2 {
 .centered {
   text-align: center;
 }
+
+.resume {
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
+}
