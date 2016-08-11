@@ -29,3 +29,44 @@ p.lead2 {
   padding-right: 10px;
   vertical-align: middle;
 }
+
+.img-responsive2 {
+  height: 325px;
+  margin: auto;
+  vertical-align: text-top;
+  text-align: left;
+}
+
+
+.img-responsive3 {
+  height: 210px;
+  margin: auto;
+  vertical-align: text-top;
+  text-align: left;
+}
+
+.btn-main2 {
+	  background: #626c72 repeat scroll 0 0;
+    border: none;
+    font-weight: 800;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: none;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 20px;
+}
+
+.btn-main2:hover {
+	background: #dc644b repeat scroll 0 0;
+	color: #FFFFFF;
+	text-decoration: none;
+	transition: all 0.35s ease-in-out;
+}
+
+#message2 {
+  background: #a5b2b9;
+}

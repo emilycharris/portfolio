@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+
+
+    <!--Content-->
+    <section id="content1" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>FamilyTV.online</h3>
+          </div>
+        </div>
+
+        <div class="row margin-40">
+          <div class="col-sm-6">
+            {# <h4>Info</h4>#}
+            <p>FamilyTV.online is a fully functioning web application that I built for my final project at The Iron Yard.  It provides a means for families to watch TV together, all the while ensuring that the programming is both fairly selected and age-appropriate for all viewers.</p>
+            <p>The application was created using the Python programming language, as well as the Django web framework.  Front-end development includes a HTML, CSS, and Boostrap.  The application was successfully deployed to the web using Heroku and AWS S3.</p>
+            <br><br>
+            <a class="btn-main2" href="http://www.familytv.online" target="_blank"><i class="icon-chevron-right"></i>View Live</a>
+            <a class="btn-main2" href="{% static "main/Final Project Presentation.m4v" %}" target="_blank"><i class="icon-chevron-right"></i>View Demo</a>
+            <a class="btn-main2" href="https://github.com/emilycharris/final_project" target="_blank"><i class="icon-chevron-right"></i>View Code</a>
+
+          </div>
+
+          <div class="col-sm-6">
+            {# <h4>Creative</h4>#}
+            <img src="{% static "main/onepage/img/familytv.png" %}" class="img-responsive2" alt="Title"/>
+
+            {# <p>Lorem ipsum, dolor amet, consectetur adipisicing</p><br />#}
+            {# <a class="btn-main" href="services.html"><i class="icon-chevron-right"></i> Launch</a>#}
+          </div>
+
+        </div>
+
+        {# <div class="row">#}
+          {# <div class="col-sm-12">#}
+            {# <div class="flexslider">#}
+              {# <ul class="slides">#}
+                {# <img src="{% static "main/onepage/img/familytv.png" %}" class="img-responsive2" alt="Title"/>#}
+                {# <li><img src="img/header2.jpg" class="img-responsive" alt="Title" /></li>#}
+              {# </ul>#}
+            {# </div>#}
+          {# </div>#}
+        {# </div>#}
+
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h5><a class="more" href="{% url 'index_view' %}#portfolio"><i class="fa fa-chevron-circle-left"></i>Back To Portfolio</a></h5>
+          </div>
+        </div>
+
+      </div>
+    </section>
+{% endblock %}

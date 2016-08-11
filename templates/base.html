@@ -1,0 +1,137 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Emily Harris | Portfolio</title>
+  <meta name="keywords" content="made with bootstrap, wrap bootstrap themes, bootstrap agency themes, creative bootstrap sites, Lava theme, responsive bootstrap theme, mobile website themes, bootstrap portfolio, theme armada">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <meta property="og:title" content="Lava | Designed By Theme Armada">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://www.themearmada.com/demos/lava">
+	<meta property="og:site_name" content="Theme Armada">
+	<meta property="og:description" content="made with bootstrap, wrap bootstrap themes, bootstrap agency themes, creative bootstrap sites, Lava theme, responsive bootstrap theme, mobile website themes, bootstrap portfolio, theme armada">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="{% static 'main/onepage/css/flexslider.css' %}">
+  <link rel="stylesheet" href="{% static 'main/onepage/css/font-awesome.min.css' %}">
+  <link rel="stylesheet" href="{% static 'main/onepage/css/animate.css' %}">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+
+  <link rel="stylesheet" href="{% static 'main/onepage/css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'main/onepage/css/main.css' %}">
+  <link rel="stylesheet" href="{% static 'main/onepage/css/custom-styles.css' %}">
+  <link rel="stylesheet" href="{% static 'main/main.css' %}" media="screen" title="no title" charset="utf-8">
+  <script src="{% static 'main/onepage/js/modernizr-2.6.2-respond-1.1.0.min.js' %}"></script>
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{% static 'main/onepage/apple-touch-icon-144-precomposed.png' %}">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{% static 'main/onepage/apple-touch-icon-114-precomposed.png' %}">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{% static 'main/onepage/apple-touch-icon-72-precomposed.png' %}">
+  <link rel="apple-touch-icon-precomposed" href="{% static 'main/onepage/apple-touch-icon-57-precomposed.png' %}">
+  <link rel="shortcut icon" href="{% static 'main/onepage/img/favicon.ico' %}">
+</head>
+
+<body id="top" data-spy="scroll" data-target=".navbar" data-offset="200">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand img-responsive-logo" href="{% url 'index_view' %}"><img src="" alt=""></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="scroll" href="{% url 'index_view' %}#top">Home</a></li>
+            <li><a class="scroll" href="{% url 'index_view' %}#portfolio">Portfolio</a></li>
+            <li><a class="scroll" href="{% url 'index_view' %}#tools">Tools</a></li>
+            <li><a class="scroll" href="{% url 'index_view' %}#content1">About</a></li>
+            {# <li><a class="scroll" href="#latest-news">News</a></li>#}
+            <li><a class="scroll" href="{% url 'index_view' %}#bottom">Contact</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    {% block content %}
+
+    {% endblock %}
+
+    <!--Bottom Section-->
+    <section id="bottom">
+      <div class="container">
+        <div class="row margin-40">
+          <div class="col-sm-10 col-sm-offset-1 text-center">
+            <p> 864.884.6996  |  <a href="mailto:emily.harris.mail@gmail.com"><i class="icon-envelope-alt"></i> emily.harris.mail@gmail.com</a></p>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1 text-center">
+            <!--Social Icons-->
+            <ul class="social-icons">
+              <li><a class="twitter" href="https://twitter.com/emilycharris" target="_blank"><i class="fa fa-twitter fa-3x"></i></a></li>
+              {# <li><a class="facebook" href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-3x"></i></a></li>#}
+              {# <li><a class="google" href="http://www.googleplus.com" target="_blank"><i class="fa fa-google-plus fa-3x"></i></a></li>#}
+              {# <li><a class="instagram" href="http://www.instagram.com" target="_blank"><i class="fa fa-camera-retro fa-3x"></i></a></li>#}
+              {# <li><a class="pinterest" href="http://www.pinterest.com" target="_blank"><i class="fa fa-pinterest fa-3x"></i></a></li>#}
+              <li><a class="linkedin" href="http://www.linkedin.com/in/emily-harris" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
+              <li><a class="Github" href="https://github.com/emilycharris" target="_blank"><i class="fa fa-github fa-3x"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <p>Unless otherwise noted, content is copyright © 2016 Emily Harris</p>
+            <p>@ Copyright. All Rights Reserved. Created by <a href="http://www.themearmada.com">Theme Armada.</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="#top" class="scrollToTop "><i class="fa fa-chevron-up"></i></a>
+
+    <!-- Javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      !function ($) {
+        $(function(){
+          $('#header').carousel()
+        })
+      }(window.jQuery)
+    </script>
+
+    <script>
+        $(window).load(function() {
+      $('.flexslider').flexslider({
+        animation: "slide"
+      });
+    });
+    </script>
+
+
+
+    </body>
+</html>

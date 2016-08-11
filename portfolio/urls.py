@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from main.views import IndexView
+from main.views import IndexView, FamilyTvView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', IndexView.as_view(), name='index_view')
+    url(r'^$', IndexView.as_view(), name='index_view'),
+    url(r'^familytv/$', FamilyTvView.as_view(), name='family_tv_view'),
 ]
