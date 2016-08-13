@@ -377,12 +377,12 @@ a:hover {
 }
 
 .carousel .item {
-  height: 650px;
+  height: auto;
 }
 
 .one {
   background: url(../img/bricks.jpg) no-repeat center center;
-  background-size: auto auto;
+  background-size: cover;
 }
 
 .two {
