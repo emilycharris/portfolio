@@ -378,11 +378,12 @@ a:hover {
 
 .carousel .item {
   height: 650px;
+  max-height: 100%;
 }
 
 .one {
   background: url(../img/bricks.jpg) no-repeat center center;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .two {
