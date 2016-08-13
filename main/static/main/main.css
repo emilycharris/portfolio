@@ -70,3 +70,27 @@ p.lead2 {
 #message2 {
   background: #a5b2b9;
 }
+
+
+.btn-main3 {
+	  background: #ff755a repeat scroll 0 0;
+    border: none;
+    font-weight: 800;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: none;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    float:right;
+    margin-left: 20px;
+}
+
+.btn-main3:hover {
+	background: #dc644b repeat scroll 0 0;
+	color: #FFFFFF;
+	text-decoration: none;
+	transition: all 0.35s ease-in-out;
+}

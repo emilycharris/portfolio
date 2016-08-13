@@ -984,14 +984,14 @@ ul.icons li {
 
 
 /* ==========================================================================
-   Testimonial styles
+   Resume styles
    ========================================================================== */
-#testimonial {
+#resume {
   background: url(../img/testimonial-bg.jpg) no-repeat;
   background-size: cover;
 }
 
-.testimonial-source {
+.resume-source {
   background: #ff755a;
   text-align: center;
   padding: 12px 14px;
