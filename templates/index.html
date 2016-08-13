@@ -135,7 +135,7 @@
 
 
 
-    <!--Message Section-->
+    <!--Message2 Section-->
     <section id="message2" class="section">
       <div class="container">
         <div class="row margin-40">
@@ -257,23 +257,41 @@
 
 
 
-
-
-    <!--Testimonial Section
-    <section id="testimonial" class="section">
+    <!--Message3 Section
+    <section id="message3" class="section">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-3 margin-30">
-            <img src="{%static 'main/onepage/img/testimonial-img.png' %}" alt="Title">
+        <div class="row margin-40">
+          <div class="col-sm-12 text-center">
+            <h2>To learn a little bit more about my education and experience, you can view or download my resume.</h2>
           </div>
+        </div>
 
-          <div class="col-sm-9">
-            <h2>“Lava has been an asset to our company by providing us with a cutting edge look and a web presence that shows off our work and skills.”</h2>
-            <div class="testimonial-source pull-right">Jeff | Ceo - Creative Company</div>
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <a class="more" href="#resume"><i class="fa fa-chevron-circle-down fa-2x white"></i></a>
           </div>
         </div>
       </div>
     </section>-->
+
+
+    <!--Testimonial Section-->
+    <section id="testimonial" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 margin-30">
+            {# <img src="{%static 'main/onepage/img/testimonial-img.png' %}" alt="Title">#}
+          </div>
+
+          <div class="col-sm-9">
+            <h2>To learn a little more about my education and experience, you can view or download my resume.</h2>
+            <a href="{% static "main/RESUME 2016.pdf" %}" target="_blank">Open Resume</a>
+            <a href="{% static "main/RESUME 2016.pdf" %}" download>Download Resume</a>
+            {# <div class="testimonial-source pull-right">Jeff | Ceo - Creative Company</div>#}
+          </div>
+        </div>
+      </div>
+    </section>
 
 
     <!--Content-->
