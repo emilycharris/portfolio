@@ -377,7 +377,7 @@ a:hover {
 }
 
 .carousel .item {
-  height: auto;
+  height: inherit;
 }
 
 .one {
