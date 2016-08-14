@@ -228,7 +228,7 @@ a:hover {
 }
 
 .navbar-brand {
-  margin-top: -15px;
+  margin-top: auto;
 }
 
 .navbar .nav > li > a {
