@@ -385,6 +385,13 @@ a:hover {
      background-size: cover;
    }
 
+
+   @media  (max-width: 767px) {
+     .one{
+       max-height: 350px;
+     }
+   }
+
    .two {
      background: url(../img/header2.jpg) no-repeat center center;
      background-size: cover;
