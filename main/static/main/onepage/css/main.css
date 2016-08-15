@@ -231,6 +231,11 @@ a:hover {
   margin-top: 15px;
 }
 
+.navbar-brand img{
+  margin-top: -15px;
+}
+
+
 .navbar .nav > li > a {
   color: #FFFFFF;
   float: none;
@@ -377,7 +382,7 @@ a:hover {
    }
 
    .carousel .item {
-     height: 650px;
+     /*height: 650px;*/
    }
 
    .one {
@@ -385,12 +390,6 @@ a:hover {
      background-size: cover;
    }
 
-
-   @media  (max-width: 767px) {
-     .one{
-       max-height: 350px;
-     }
-   }
 
    .two {
      background: url(../img/header2.jpg) no-repeat center center;
@@ -1142,6 +1141,11 @@ h1 {
     color: #FFFFFF;
 }
 
+.navbar-brand img{
+  max-height: 200%;
+  margin-top: -2px;
+}
+
 .img-responsive {
   margin: auto;
 }
@@ -1181,7 +1185,7 @@ p.lead {
 }
 
 /* Landscape phone to portrait tablet */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
 
 h1 {
   font-size: 40px;
@@ -1199,6 +1203,11 @@ h1 {
 
 .img-responsive {
   margin: auto;
+}
+
+.navbar-brand img{
+  max-height: 250%;
+  margin-top: -2px;
 }
 
 .carousel-caption {
@@ -1221,7 +1230,7 @@ h3 {
 }
 
 p.lead {
-  font-size: 18px;
+  font-size: 10px;
 }
 
 .team-container {
@@ -1236,15 +1245,34 @@ p.lead {
 
 /* Small devices */
 @media (min-width: 320px) and (max-width: 768px) {
+  p.lead {
+    font-size: 10px;
+  }
 
+  .one{
+    max-height:100%
+  }
 }
+
 
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 991px) {
 
 }
+.navbar-brand img{
+  max-height: 300%;
+  margin-top: -20px;}
 
+p.lead {
+  font-size: 40px;
+  }
+
+  .one{
+    max-height:100%
+  }
+  
+}
 
 
 /* Desktops and laptops ----------- */
