@@ -335,121 +335,120 @@ a:hover {
    Header Styles
    ========================================================================== */
 
-.carousel {
-  margin-bottom: 0px;
-  background: #31363a;
-}
+   .carousel {
+     margin-bottom: 0px;
+     background: #31363a;
+   }
 
-.carousel .container {
-  position: relative;
-  z-index: 9;
-}
+   .carousel .container {
+     position: relative;
+     z-index: 9;
+   }
 
-.carousel-control {
-    background: none repeat scroll 0 0;
-    background-color: rgba(253,90,62,0.9);
-    border: 0px solid;
-    border-radius: 0px;
-    font-size: 22px;
-    font-weight: bold;
-    height: 40px;
-    width: 5%;
-    margin-top: 300px;
-    text-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
-    z-index: 10;
-    opacity: 1;
-}
+   .carousel-control {
+       background: none repeat scroll 0 0;
+       background-color: rgba(253,90,62,0.9);
+       border: 0px solid;
+       border-radius: 0px;
+       font-size: 22px;
+       font-weight: bold;
+       height: 40px;
+       width: 5%;
+       margin-top: 300px;
+       text-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
+       z-index: 10;
+       opacity: 1;
+   }
 
-.carousel-control.left {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0) 0px, rgba(0, 0, 0, 0) 0%);
-    background-repeat: repeat-x;
-}
+   .carousel-control.left {
+       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0) 0px, rgba(0, 0, 0, 0) 0%);
+       background-repeat: repeat-x;
+   }
 
-.carousel-control.right {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.0) 0%);
-    background-repeat: repeat-x;
-    left: auto;
-    right: 0;
-}
+   .carousel-control.right {
+       background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.0) 0%);
+       background-repeat: repeat-x;
+       left: auto;
+       right: 0;
+   }
 
-.carousel-control:hover {
-  opacity: 0.7;
-}
+   .carousel-control:hover {
+     opacity: 0.7;
+   }
 
-.carousel .item {
-  height: 100%;
-}
+   .carousel .item {
+     height: 650px;
+   }
 
-.one {
-  background: url(../img/bricks.jpg) no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
-}
+   .one {
+     background: url(../img/bricks.jpg) no-repeat center center;
+     background-size: cover;
+   }
 
-.two {
-  background: url(../img/header2.jpg) no-repeat center center;
-  background-size: cover;
-}
+   .two {
+     background: url(../img/header2.jpg) no-repeat center center;
+     background-size: cover;
+   }
 
-.three {
-  background: url(../img/header3.jpg) no-repeat center center;
-  background-size: cover;
-}
-
-
-.carousel-caption {
-  background-color: transparent;
-  position: static;
-  padding: 0 20px;
-  margin-top: 36%;
-  text-align: left;
-}
+   .three {
+     background: url(../img/header3.jpg) no-repeat center center;
+     background-size: cover;
+   }
 
 
-/* ==========================================================================
-   Content Styles
-   ========================================================================== */
-.section {
-  padding: 100px 0;
-}
-
-#content1 {
-  background: #ffffff;
-  margin-top: 50px;
-}
-
-#content2 {
-  background: url(../img/grid_noise.png) repeat;
-  background-color: #ebebeb;
-}
-
-#page-title {
-  background: #ffffff;
-  margin-top: 50px;
-}
-
-#message {
-  background: #a5b2b9;
-}
+   .carousel-caption {
+     background-color: transparent;
+     position: static;
+     padding: 0 20px;
+     margin-top: 15%;
+     text-align: left;
+   }
 
 
-.tools:hover i {
-  color: #626c72;
-  transition: all 0.35s ease-in-out;
-  cursor: pointer;
-}
+   /* ==========================================================================
+      Content Styles
+      ========================================================================== */
+   .section {
+     padding: 100px 0;
+   }
 
-.tools h3 {
-  margin-top: 40px;
-}
+   #content1 {
+     background: #ffffff;
+     margin-top: 50px;
+   }
 
-.tools-icons {
-  padding-top: 20px;
-}
+   #content2 {
+     background: url(../img/grid_noise.png) repeat;
+     background-color: #ebebeb;
+   }
 
-#twitter {
-  background: #dfe5e8;
-}
+   #page-title {
+     background: #ffffff;
+     margin-top: 50px;
+   }
+
+   #message {
+     background: #a5b2b9;
+   }
+
+
+   .service:hover i {
+     color: #626c72;
+     transition: all 0.35s ease-in-out;
+     cursor: pointer;
+   }
+
+   .service h3 {
+     margin-top: 40px;
+   }
+
+   .service-icons {
+     padding-top: 20px;
+   }
+
+   #twitter {
+     background: #dfe5e8;
+   }
 
 
 /* ==========================================================================
