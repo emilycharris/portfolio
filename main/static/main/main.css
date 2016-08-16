@@ -87,13 +87,3 @@ p.lead2 {
 	text-decoration: none;
 	transition: all 0.35s ease-in-out;
 }
-
-.carousel-caption img{
-  max-width: 100%;
-}
-@media (max-width: 768px) {
-  .carousel-caption img{
-    max-width: 100%;
-    margin-top: 50px;
-  }
-}

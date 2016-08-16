@@ -419,7 +419,10 @@ a:hover {
      padding: 0 20px;
      margin-top: 15%;
      text-align: left;
+     max-width: 100%;
    }
+
+
 
 
    /* ==========================================================================
@@ -1217,7 +1220,7 @@ h1 {
 }
 
 .navbar-brand img{
-  max-height: 250%;
+  max-height: 150%;
   margin-top: -2px;
 }
 
@@ -1255,13 +1258,37 @@ p.lead {
 }
 
 /* Small devices */
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
   p.lead {
-    font-size: 10px;
-  }
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+    }
 
   .one{
     max-height:100%
+  }
+
+  .carousel-caption img{
+    max-width: 100%;
+    margin-top: 80px;
+  }
+}
+
+/* Small devices */
+@media (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  p.lead {
+    font-size: 20px;
+    text-align: left;
+    }
+
+  .one{
+    max-height:100%
+  }
+
+  .carousel-caption img{
+    max-width: 100%;
+    margin-top: 0px;
   }
 }
 
@@ -1269,20 +1296,23 @@ p.lead {
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand img{
+    max-height: 200%;
+    margin-top: -10px;}
 
-}
-.navbar-brand img{
-  max-height: 300%;
-  margin-top: -20px;}
+  p.lead {
+    font-size: 40px;
+    text-align: left;
+    }
 
-p.lead {
-  font-size: 40px;
-  }
+    /*.one{
+      max-width:200%;
+    }*/
 
-  .one{
-    max-height:100%
-  }
-
+    .carousel-caption img{
+      max-width: 100%;
+      margin-top: 0px;
+    }
 }
 
 
