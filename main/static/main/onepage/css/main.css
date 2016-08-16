@@ -1219,10 +1219,6 @@ h1 {
   margin: auto;
 }
 
-.navbar-brand img{
-  max-height: 150%;
-  margin-top: -2px;
-}
 
 .carousel-caption {
   max-width: 100%;
@@ -1272,6 +1268,11 @@ p.lead {
   .carousel-caption img{
     max-width: 100%;
     margin-top: 80px;
+  }
+
+  .navbar-brand img{
+    max-height: 125%;
+    margin-top: -2px;
   }
 }
 
