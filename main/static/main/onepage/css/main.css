@@ -1314,6 +1314,11 @@ p.lead {
       max-width: 100%;
       margin-top: 0px;
     }
+
+    img.tools{
+      max-width: 90%;
+      max-height: 130px;
+    }
 }
 
 
