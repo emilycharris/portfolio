@@ -23,7 +23,7 @@ p.lead2 {
 }
 
 .img-responsive2 {
-  height: 325px;
+  width: 100%;
   margin: auto;
   vertical-align: text-top;
   text-align: left;
@@ -50,7 +50,6 @@ p.lead2 {
     padding: 15px 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-right: 20px;
 }
 
 .btn-main2:hover {
