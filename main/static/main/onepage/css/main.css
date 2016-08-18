@@ -1269,7 +1269,7 @@ p.lead {
 
 
 /* Small devices */
-@media (max-width: 768px){
+@media (max-width: 767px){
   p.lead {
     margin-top: 20px;
     margin-left: 15px;
@@ -1287,7 +1287,7 @@ p.lead {
   }
 
   .navbar-brand img{
-    max-height: 200%;
+    max-height: 150%;
     margin-top: -2px;
   }
 
@@ -1315,6 +1315,16 @@ p.lead {
     margin-top: 30px;
     margin-bottom: 15px;
     text-align: center;
+  }
+
+  ul.social-icons li {
+  	display: inline-block;
+    text-align: center;
+  	margin-right: 15px;
+  	line-height: 50px;
+  }
+  ul.social-icons{
+    padding-left: 0px;
   }
 
 }
@@ -1408,6 +1418,16 @@ p.lead {
     width: 40%;
     text-align: center
     }
+
+  ul.social-icons li {
+    display: inline-block;
+    margin-right: 25px;
+    line-height: 50px;
+  }
+
+  ul.social-icons{
+    padding-left: 0px;
+  }
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -1445,6 +1465,20 @@ p.lead {
       width: 40%;
       text-align: center
       }
+
+    ul.social-icons{
+      padding-left: 0px;
+    }
+
+    .col-sm-12 p {
+      font-size: 10px;
+      line-height: 15px;
+    }
+
+    .col-sm-12 h3 {
+      font-size: 24px;
+      margin-top: 0px;
+    }
 }
 
 
@@ -1463,6 +1497,20 @@ p.lead {
       width: 100%;
       text-align: center
       }
+
+    ul.social-icons{
+      padding-left: 0px;
+    }
+
+    .col-sm-12 p {
+      font-size: 13px;
+      line-height: 20px;
+    }
+
+    .col-sm-12 h3 {
+      font-size: 24px;
+      margin-top: 0px;
+    }
 
 }
 
