@@ -11,3 +11,6 @@ class FamilyTvView(TemplateView):
 
 class EmilysListView(TemplateView):
     template_name = 'emilyslist.html'
+
+class URLShortenerView(TemplateView):
+    template_name = 'emily_url_shortener.html'

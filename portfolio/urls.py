@@ -15,11 +15,12 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from main.views import IndexView, FamilyTvView, EmilysListView
+from main.views import IndexView, FamilyTvView, EmilysListView, URLShortenerView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', IndexView.as_view(), name='index_view'),
     url(r'^familytv/$', FamilyTvView.as_view(), name='family_tv_view'),
     url(r'^emilyslist/$', EmilysListView.as_view(), name='emilyslist_view'),
+    url(r'^emily_url_shortener/$', URLShortenerView.as_view(), name='url_shortener_view'),
 ]
