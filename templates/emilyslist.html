@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+
+
+    <!--Content-->
+    <section id="content1" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>emilyslist</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p>emilyslist is a fully functioning web application that I built as a weekend homework project at The Iron Yard.  It is a fully functional simulated classifieds site, similar to Craigslist.</p>
+            <p>The application was created using the Python programming language, as well as the Django web framework.  The application also includes an API using Django REST Framework.  Front-end development includes HTML, CSS, and Bootstrap.  The application was successfully deployed to the web using Heroku and AWS S3.</p>
+            <br><br>
+            <div class="col-md-4">
+              <a class="btn-main2" href="" target="_blank">View Live</a>
+            </div>
+            <div class="col-md-4">
+              <a class="btn-main2" href="https://github.com/emilycharris/emilyslist" target="_blank">View Code</a>
+            </div>
+
+          </div>
+          <div class="col-md-6">
+            <img src="{% static "main/onepage/img/emilyslist.png" %}" class="img-responsive2" alt="Title"/>
+          </div>
+          <br>
+          <br>
+        </div>
+
+
+
+        </div>
+
+
+
+
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h5><a class="more" href="{% url 'index_view' %}#portfolio"><i class="fa fa-chevron-circle-left"></i>&nbsp&nbsp Back To Portfolio</a></h5>
+          </div>
+        </div>
+
+    </section>
+{% endblock %}
