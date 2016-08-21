@@ -61,7 +61,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="scroll" href="{% url 'index_view' %}#header">Home</a></li>
+            <li><a class="scroll" href="{% url 'index_view' %}#top">Home</a></li>
             <li><a class="scroll" href="{% url 'index_view' %}#portfolio">Portfolio</a></li>
             <li><a class="scroll" href="{% url 'index_view' %}#tools">Tools</a></li>
             <li><a class="scroll" href="{% url 'index_view' %}#resume">Resume</a></li>
@@ -95,11 +95,11 @@
     <!-- Javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    {# <script>window.jQuery || document.write('<script src="{% static 'main/onepage/js/jquery-1.11.2.min.js' %}"><\/script>')</script>#}
+    <script src="{% static 'main/onepage/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'main/onepage/js/jquery.flexslider-min.js' %}"></script>
+    {# <script src="{% static 'main/onepage/js/main.js' %}"></script>#}
 
     <script>
       !function ($) {
@@ -116,8 +116,6 @@
       });
     });
     </script>
-
-
 
     </body>
 </html>
