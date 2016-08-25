@@ -8,6 +8,8 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
 
+
+
   <meta property="og:title" content="Lava | Designed By Theme Armada">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="http://www.themearmada.com/demos/lava">
@@ -15,7 +17,6 @@
 	<meta property="og:description" content="made with bootstrap, wrap bootstrap themes, bootstrap agency themes, creative bootstrap sites, Lava theme, responsive bootstrap theme, mobile website themes, bootstrap portfolio, theme armada">
 
   <!-- Styles -->
-  <link rel="stylesheet" href="{% static 'main/onepage/css/flexslider.css' %}">
   <link rel="stylesheet" href="{% static 'main/onepage/css/flexslider.css' %}">
   <link rel="stylesheet" href="{% static 'main/onepage/css/font-awesome.min.css' %}">
   <link rel="stylesheet" href="{% static 'main/onepage/css/animate.css' %}">
@@ -25,7 +26,7 @@
   <link rel="stylesheet" href="{% static 'main/onepage/css/bootstrap.min.css' %}">
   <link rel="stylesheet" href="{% static 'main/onepage/css/main.css' %}">
   <link rel="stylesheet" href="{% static 'main/onepage/css/custom-styles.css' %}">
-  <link rel="stylesheet" href="{% static 'main/main.css' %}" media="screen" title="no title" charset="utf-8">
+  {# <link rel="stylesheet" href="{% static 'main/main.css' %}" media="screen" title="no title" charset="utf-8">#}
   <script src="{% static 'main/onepage/js/modernizr-2.6.2-respond-1.1.0.min.js' %}"></script>
 
   <!-- Fav and touch icons -->
@@ -62,7 +63,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="scroll" href="{% url 'index_view' %}#top">Home</a></li>
+            <li><a class="scroll" href="{% url 'index_view' %}#header">Home</a></li>
             <li><a class="scroll" href="{% url 'index_view' %}#portfolio">Portfolio</a></li>
             <li><a class="scroll" href="{% url 'index_view' %}#tools">Tools</a></li>
             <li><a class="scroll" href="{% url 'index_view' %}#resume">Resume</a></li>
@@ -96,12 +97,22 @@
     <!-- Javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    {# <script>window.jQuery || document.write('<script src="{% static 'main/onepage/js/jquery-1.11.2.min.js' %}"><\/script>')</script>#}
+    {# <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>#}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="{% static 'main/onepage/js/jquery-1.11.2.min.js' %}"><\/script>')</script>
     <script src="{% static 'main/onepage/js/bootstrap.min.js' %}"></script>
     <script src="{% static 'main/onepage/js/jquery.flexslider-min.js' %}"></script>
     {# <script src="{% static 'main/onepage/js/main.js' %}"></script>#}
 
+    <script>
+      $(document).on('click','.navbar-collapse.in',function(e) {
+
+          if( $(e.target).is('a') && ( $(e.target).attr('class') != 'dropdown-toggle' ) ) {
+            $(this).collapse('hide');
+          }
+
+        });
+    </script>
     <script>
       !function ($) {
         $(function(){

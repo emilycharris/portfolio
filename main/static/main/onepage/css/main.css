@@ -1652,3 +1652,9 @@ p.lead2 {
 	text-decoration: none;
 	transition: all 0.35s ease-in-out;
 }
+
+.navbar .in .nav li {
+   display: block;
+   float: none;
+   width:100%;
+}
