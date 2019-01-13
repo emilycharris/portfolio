@@ -25,7 +25,7 @@ SECRET_KEY = '7y96h)#$@q#@rx5co+c&h84!t_@)dbi@+k78+#bo*ktkvy*3u@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['emilyharris.io', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['www.emilyharris.io', 'localhost', '127.0.0.1']
 
 
 # Application definition
